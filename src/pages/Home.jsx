@@ -5,7 +5,7 @@ export default function Home() {
             <div className="flex-1 flex justify-center mt-16 md:mt-0">
                 <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full overflow-hidden shadow-lg">
                     <img
-                        src={`${process.env.PUBLIC_URL}/Sourav.jpg`}
+                        src="/my-portfolio/Sourav.jpg"
                         alt="Sourav Toshniwal"
                         className="w-full h-full object-cover"
                     />
