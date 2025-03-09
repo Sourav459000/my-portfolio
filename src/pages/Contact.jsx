@@ -19,7 +19,7 @@ export default function Contact() {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen px-6 md:px-12 lg:px-20 xl:px-28 mt-12">
+        <div className="flex flex-col items-center justify-center min-h-screen px-6 md:px-12 lg:px-20 xl:px-28 mt-4 sm:mt-6 md:mt-8 lg:mt-10 xl:mt-12">
             <div className="max-w-4xl w-full bg-gray-800 shadow-lg rounded-xl p-6 sm:p-8 xl:p-10 text-white">
                 {/* Heading */}
                 <h2 className="text-xl sm:text-2xl md:text-3xl xl:text-4xl font-bold text-[#facc15] text-center">

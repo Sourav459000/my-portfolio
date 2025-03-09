@@ -38,7 +38,7 @@ export default function About() {
                 <h2 className="mt-16 text-xl sm:text-2xl md:text-3xl xl:text-4xl font-bold text-[#facc15] text-center">
                     Skills
                 </h2>
-                <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 xl:gap-10 justify-center ml-[-1rem] sm:ml-0">
+                <div className="mt-6 flex flex-wrap gap-8 sm:gap-16 md:gap-8 xl:gap-[3.3rem] justify-center lg:justify-normal">
                     <SkillCard icon={<FaCode />} title="Programming" skills="Python, Java, JavaScript" />
                     <SkillCard icon={<FaLaptopCode />} title="Web Development" skills="React.js & Django" />
                     <SkillCard icon={<FaDatabase />} title="Databases" skills="MySQL, Basic MongoDB" />
@@ -54,7 +54,7 @@ export default function About() {
 /* Reusable Skill Card Component */
 function SkillCard({ icon, title, skills }) {
     return (
-        <div className="flex flex-col items-center bg-gray-700 rounded-lg p-3 sm:p-4 xl:p-5 shadow-md w-32 xs:w-36 sm:w-40 md:w-36 lg:w-44 xl:w-48">
+        <div className="flex flex-col items-center bg-gray-700 rounded-lg p-3 sm:p-4 xl:p-5 shadow-md w-[6.5rem] sm:w-36 lg:w-44 xl:w-48">
             <div className="text-lg xs:text-xl sm:text-2xl xl:text-3xl text-[#facc15]">{icon}</div>
             <h3 className="mt-2 text-xs xs:text-sm sm:text-base md:text-lg xl:text-xl font-semibold text-center">
                 {title}

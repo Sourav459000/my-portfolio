@@ -23,7 +23,7 @@ export default function Home() {
                 {/* Download Resume Button */}
                 <div className="mt-6">
                     <a
-                        href="/resume.pdf"
+                        href="/my-portfolio/resume.pdf"
                         download
                         className="bg-[#facc15] text-gray-900 font-semibold px-6 py-3 rounded-lg hover:bg-yellow-400 transition"
                     >
