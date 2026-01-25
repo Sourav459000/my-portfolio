@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import { FiMenu, FiX } from "react-icons/fi"; // Import icons for menu
@@ -22,6 +23,7 @@ export default function App() {
         <div className="hidden md:flex space-x-6">
           <NavItem to="/" label="Home" />
           <NavItem to="/about" label="About" />
+          <NavItem to="/experience" label="Experience" />
           <NavItem to="/projects" label="Projects" />
           <NavItem to="/contact" label="Contact" />
         </div>
@@ -42,6 +44,7 @@ export default function App() {
       >
         <NavItem to="/" label="Home" onClick={() => setMenuOpen(false)} />
         <NavItem to="/about" label="About" onClick={() => setMenuOpen(false)} />
+        <NavItem to="/experience" label="Experience" onClick={() => setMenuOpen(false)} />
         <NavItem to="/projects" label="Projects" onClick={() => setMenuOpen(false)} />
         <NavItem to="/contact" label="Contact" onClick={() => setMenuOpen(false)} />
       </div>
@@ -51,6 +54,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
