@@ -1,4 +1,4 @@
-import { FaLaptopCode, FaDatabase, FaCloud, FaMicrochip, FaUniversity, FaServer, FaCode } from "react-icons/fa";
+import { FaLaptopCode, FaDatabase, FaCloud, FaMicrochip, FaUniversity, FaServer, FaCode, FaBug } from "react-icons/fa";
 
 export default function About() {
     return (
@@ -45,6 +45,7 @@ export default function About() {
                     <SkillCard icon={<FaCloud />} title="Cloud Computing" skills="AWS & Azure" />
                     <SkillCard icon={<FaServer />} title="Frontend & Styling" skills="HTML5, CSS3, Tailwind CSS" />
                     <SkillCard icon={<FaMicrochip />} title="AI & Edge Computing" skills="ML & Micro-processors" />
+                    <SkillCard icon={<FaBug />} title="Testing & QA" skills="PyTest, API Testing, Automation, Manual Testing" />
                 </div>
             </div>
         </div>
@@ -55,7 +56,9 @@ export default function About() {
 function SkillCard({ icon, title, skills }) {
     return (
         <div className="flex flex-col items-center bg-gray-700 rounded-lg p-3 sm:p-4 xl:p-5 shadow-md w-[6.5rem] sm:w-36 lg:w-44 xl:w-48">
-            <div className="text-lg xs:text-xl sm:text-2xl xl:text-3xl text-[#facc15]">{icon}</div>
+            <div className="text-lg xs:text-xl sm:text-2xl xl:text-3xl text-[#facc15]">
+                {icon}
+            </div>
             <h3 className="mt-2 text-xs xs:text-sm sm:text-base md:text-lg xl:text-xl font-semibold text-center">
                 {title}
             </h3>
