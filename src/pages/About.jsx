@@ -27,7 +27,7 @@ export default function About() {
                         <p className="text-xs sm:text-sm md:text-base text-gray-300">
                             Bachelor of Technology in Computer Science and Engineering
                             <br />
-                            <span className="font-semibold">CGPA:</span> 8.53
+                            <span className="font-semibold">CGPA:</span> 8.64
                             <br />
                             <span className="font-semibold">2021 - 2025 (Present)</span>
                         </p>
